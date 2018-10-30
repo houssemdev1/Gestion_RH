@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>ajout utilisateur</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+         
+      
+          <!-- Icon -->
+          <div class="fadeIn first">
+            <img src="http://www.sndl.cerist.dz/images/nterrogation.png" id="icon" alt="User Icon" />
+          </div>
+      
+          <!-- Login Form -->
+
+          <form  onsubmit="return validation()" >
+            <p>Veuillez saisir votre adresse email</p>
+            <input type="text" id="email" class="fadeIn second" name="login" placeholder="Email">
+            <p id="pemail"></p>
+           
+          </form>
+
+          <a  onclick="recuperer_passwd()"><input id="btn" type="submit"  value="Renitialiser"></a>
+       
+        
+      </body>
+      
+      
+<script type="text/javascript" src="javascript.js"></script> 
+
+</html>

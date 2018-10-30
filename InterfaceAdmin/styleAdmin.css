@@ -1,0 +1,139 @@
+
+/*****ButtonMenu******/
+
+.dropbtn {
+    background-color: #555;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #555;
+}
+
+.dropdown {
+    direction: rtl;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    direction: ltr;
+
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+
+
+/**Container***/
+/****InlineBlock ColumnLeft et ColumnRight****/
+
+.ColumnLeft, .ColumnRight{
+    display: inline-block;
+}
+/**General css***/
+body{
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+
+/***ColumnLeft****/
+.ColumnLeft{
+    
+    height: 789px;
+    width: 30%;
+    margin-bottom: 0%;
+    background-color: rgb(51, 51, 51)
+}
+
+/***Row1CL***/
+
+
+
+/***Row2CL***/
+.Row2CL{
+    
+}
+
+
+
+.Li1Row2CL{
+    list-style-type: none;
+        text-decoration: none
+
+
+}
+.Li2Row2CL{
+    list-style-type: none;
+
+}
+
+.TxtLi1Row2CL{
+    text-decoration: none;
+    color: #ddd
+ 
+}
+
+.TxtLi2Row2CL{
+    text-decoration: none;
+    color: #ddd
+}
+
+
+
+/***ColumnRight****/
+/*
+.Column1R1CR, .dropdown{
+    display: inline-block;
+}*/
+
+/**ColumnRight**/
+
+.ColumnRight{
+    float: right;
+   
+    
+    width: 70%;
+    
+
+}
+
+
+/****Row1CR*****/
+.Row1CR{
+    background-color: #555
+}
+
+
+/**dropdown**/
+ .dropdown{
+    float: right;
+}
+
+.Column1R1CR, .dropdown{
+    display: inline-block
+}

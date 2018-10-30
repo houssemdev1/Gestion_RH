@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../style.css" />
+</head>
+
+<body>
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+            <!-- Tabs Titles -->
+            <a href="../login.html">
+                <h2 class="active"> Se Connecter </h2>
+            </a>
+            <a href="#">
+                <h2 class="inactive underlineHover">S'inscrire </h2>
+            </a>
+
+
+            <!-- Login Form -->
+            <form>
+                <input type="text" id="inputLogin" class="fadeIn second" name="login" placeholder="Nom" required>
+                <input type="text" id="inputPrenom" class="fadeIn second" name="login" placeholder="Prénom" required="required">
+                <input type="text" id="inputPassword" class="fadeIn third" name="login" placeholder="Mot de passe">
+                <input type="text" id="inputEmail" class="fadeIn second" name="login" placeholder="Email" >
+                <input type="text" id="inputAdresse" class="fadeIn second" name="login" placeholder="Adresse" >
+                <input type="text" id="inputCin" class="fadeIn second" name="login" placeholder="CIN" >
+                <input type="text" id="inputTel" class="fadeIn second" name="login" placeholder="Téléphone" >
+                <input type="text" id="inputSociete" class="fadeIn second" name="login" placeholder="Nom de Société"  >
+
+
+               
+            </form>
+
+ 
+<!--Button Sauvegarder-->
+<input type="submit" class="fadeIn fourth" value="Créer" onclick="Save()">
+
+
+            <!-- Remind Passowrd -->
+            <div id="formFooter">
+                <!-- <a class="underlineHover" href="../ForgetPassword.html">Mot de passe oublié?</a> -->
+            </div>
+
+            <!--Snackbar-->
+            <div id="snackbar">Création réussite</div>
+            <div id="snackbarFailed">Création échouée</div>
+
+
+        </div>
+    </div>
+
+
+    <script src="../javascript.js"></script>
+
+</body>
+
+</html>
