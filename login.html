@@ -6,7 +6,7 @@
     <title>Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="main.js"></script>
+    >
 </head>
 <body>
     <div class="wrapper fadeInDown">
@@ -18,17 +18,21 @@
       
           <!-- Login Form -->
           <form>
-            <input type="text" id="login" class="fadeIn second" name="login" placeholder="Email">
-            <input type="text" id="password" class="fadeIn third" name="login" placeholder="Mot de passe">
-            <input type="submit" class="fadeIn fourth" value="Log In">
+            <input type="text" id="inputLogin" class="fadeIn second" name="login" placeholder="Email">
+            <input type="text" id="inputPassword" class="fadeIn third" name="login" placeholder="Mot de passe">
+         
           </form>
-      
+           <!--Button Log in-->
+           <input type="submit" class="fadeIn fourth" value="Log In" onclick="Login()"> 
           <!-- Remind Passowrd -->
           <div id="formFooter">
-            <a class="underlineHover" href="ForgetPassword.html">Mot de passe oublié?</a>
+            <a class="underlineHover" href="forgetpasswd.html">Mot de passe oublié?</a>
           </div>
       
+          <div id="snackbarFailed">Création échouée</div>
+
         </div>
       </div>
+      <script src="javascript.js"></script
 </body>
 </html>
