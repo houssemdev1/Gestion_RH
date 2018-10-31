@@ -165,7 +165,7 @@ function sendemail() {
 
 
 
-/******Se Connecter() *******/
+/******Se Connecter() As User and Admin*******/
 var resultatAdmin ;
 var resultatUser ;
 function Login() {
