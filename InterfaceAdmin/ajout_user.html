@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ajouter un utilisateur</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styleAdmin.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <div>
+        <h2>Ajouter un utilisateur</h2>
+        <h4>Creer un utilisateur et l'ajouter à ce site</h4>
+
+    </div>
+    <div>
+
+        <form id="user_form">
+            <div class="row">
+                <label class="required" for="name">Matricule:</label>
+                <input id="inputid" class="input" name="name" type="text" value="" size="30" /><br />
+                <div class="row">
+                    <label class="required" for="name">Nom:</label>
+                    <input id="inputnom_user" class="input" name="name" type="text" value="" size="30" /><br />
+                    <div class="row">
+                        <label class="required" for="name">Prenom:</label>
+                        <input id="inputprenom_user" class="input" name="name" type="text" value="" size="30" /><br />
+                        <div class="row">
+                            <label class="required" for="name">Date De Naissance:</label>
+                            <input id="inputdatenais" class="input" name="name" type="date" name="date" size="30" /><br />
+                            <div class="row">
+                                <label class="required" for="name">CIN:</label>
+                                <input id="inputCin_user" class="input" name="name" type="text" value="" size="30" /><br />
+                                <div class="row">
+                                    <label class="required" for="name">Email:</label>
+                                    <input id="inputEmail_user" class="input" name="name" type="text" value="" size="30" /><br />
+                                    <div class="row">
+                                        <label class="required" for="name">Mot de passe:</label>
+                                        <input id="inputpwd_user" class="input" name="name" type="text" value="" size="30" /><br />
+                                        <div class="row">
+                                            <label class="required" for="name">Tel:</label>
+                                            <input id="inputtel_user" class="input" name="name" type="text" value=""
+                                                size="30" /><br />
+
+                                            <div class="row">
+                                                <label class="required" for="name">Adresse:</label>
+                                                <input id="inputadresse_user" class="input" name="name" type="text"
+                                                    value="" size="30" /><br />
+                                                <div class="row">
+                                                    <label class="required" for="name">Nom De Société:</label>
+                                                    <input id="inputSociete_user" class="input" name="name" type="text"
+                                                        value="" size="30" /><br />
+                                                    <div class="row">
+                                                        <label class="required" for="name">Salaire:</label>
+                                                        <input id="inpusalaire" class="input" name="name" type="text"
+                                                            value="" size="30" /><br />
+                                                        <div class="row">
+                                                            <label class="required" for="name">Congé:</label>
+                                                            <input id="inputconge" class="input" name="name" type="text"
+                                                                value="" size="30" /><br />
+
+                                                            <div>
+<br><br>
+<label class="required" for="name">Image:</label>
+<input type="file" id="img" name="avatar" accept="image/png, image/jpeg">
+</div>
+
+                                                            <p id="pobl">(*) Champ obligatoire</p>
+
+                                                         
+        </form>
+        <a onclick="add_user()"> <input id="submit_button" type="submit" value="Ajouter" /></a>
+   
+    <script type="text/javascript" src="../javascript.js"></script>
+</body>
+
+
+</html>

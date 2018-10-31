@@ -24,8 +24,8 @@
             <!--Row2CL-->
             <div class="Row2CL">
                 <ul>
-                    <li class="Li1Row2CL"><a href="#" class="TxtLi1Row2CL"> <i class="fas fa-pen-alt"></i> Modifier User</a> </li>
-                    <li class="Li2Row2CL"> <a href="#" class="TxtLi2Row2CL"> <i class="fas fa-trash-alt"></i>  Supprimer User</li></a> 
+                    <li class="Li1Row2CL"><a href="#" class="TxtLi1Row2CL"> <i class="fas fa-pen-alt"></i> Consulter Profil</a> </li>
+                    <li class="Li2Row2CL"> <a href="#" class="TxtLi2Row2CL"> <i class="fas fa-trash-alt"></i>Consulter Mission</li></a> 
                 </ul>
             </div>
 
@@ -45,7 +45,7 @@
                     <button onclick="myFunction()" class="dropbtn">   <i class="fas fa-bars" ></i></button>
                     <div id="myDropdown" class="dropdown-content">
                         <a href="#home"> <i class="far fa-user"></i>  Mon Profil</a>
-                        <a href="C:\Users\housseminfo\Desktop\nouveauprojet\GRHfinal\login.html"> <i class="fas fa-power-off"></i>  Déconnexion</a>
+                        <a onclick="deconnecter()"> <i class="fas fa-power-off"></i>  Déconnexion</a>
                       
                     </div>
 
@@ -56,15 +56,18 @@
             <div>
                 <h1>Table d'informations</h1>
             </div>
-
+            <div id="content">
+                <iframe src="consulter_profil.html" frameborder="0" width="700" height="400"> 
+                </iframe>
 
         </div>
 
     </div>
+   
 
 
-
-    <script src="../javascript.js"></script>
+    <script type="text/javascript" src="../javascript.js"></script>
+    
 
 </body>
 

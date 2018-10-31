@@ -53,18 +53,12 @@
 }
 /**General css***/
 body{
-    font-family: arial;
-    font-size: 14px;
     width: 100%;
     height: 100%;
     padding: 0%;
-    margin: 2%;
+    margin: 0%;
 
 }
-
-
-
-
 
 
 /***ColumnLeft****/
@@ -160,3 +154,9 @@ input{
 #mission{
     margin-left: 5%;
 }
+/***style pour le profil**/
+#profil { 
+    background:aquamarine; 
+    margin-left:15%; 
+    margin-top: 2%;
+    border-collapse:collapse;}   

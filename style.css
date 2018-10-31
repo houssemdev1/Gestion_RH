@@ -364,3 +364,14 @@ input[type=text]:placeholder {
 
 
 
+/*style pour message erreur email et password*/
+#pemail{
+
+  color: red;
+  font-size: 13px;
+}
+#ppassword{
+
+  color: red;
+  font-size: 13px;
+}
