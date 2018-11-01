@@ -157,6 +157,7 @@ sendemail();
 /**fonction d'envoi d'email */
 function sendemail()
               {
+<<<<<<< HEAD
                   var email = document.getElementById("email").value;
                   var subject = ("nouveau mot de passe");
                   var v_email=document.getElementById("email").value;
@@ -171,6 +172,13 @@ function sendemail()
                   var body = (userTab[i].pwd);
                    location.href="mailto:" + v_email + '?subject=' +subject+ '&body=' +body+ "" ;
           }        }}
+=======
+                resultatAdmin = 0 ;
+                resultatUser = 1 ;
+                key = retrievedTabUser[j].societe;
+              }
+
+>>>>>>> 6baab36b6d6a957f73a7e5fb419c16c2e1b7f347
 
 
 /**fonction d'ajout utilisateur */
@@ -286,4 +294,54 @@ localStorage.removeItem("key");
 
 location.href="../login.html";
 
+<<<<<<< HEAD
         }
+=======
+        }
+
+              if (((document.getElementById("inputLogin").value !== retrievedTabUser[j].email) && (document.getElementById("inputPassword").value !== retrievedTabUser[j].pwd))) 
+              {
+                resultatAdmin = 0;
+                resultatUser = 0 ;
+              }
+            }
+
+          }
+
+
+        }
+      }
+      console.log('resultatAdmin ', resultatAdmin);
+      console.log('resultatUser ', resultatUser);
+
+    }
+  }
+  
+
+
+
+  if (resultatAdmin == 1) {
+    location.href = 'InterfaceAdmin/Admin.html';
+    //Store
+    localStorage.setItem("Key", key);
+  }
+  if (resultatUser == 1) {
+    location.href = 'g_consulter_profil.html.html';
+    localStorage.setItem("Key", key);
+    localStorage.setItem("Key", key);
+  }
+  if ((resultatAdmin == 0) && (resultatUser == 0)) {
+    // myFunctionSnackbarEchoué()
+  }
+
+}
+
+
+
+
+/******Afficher Users *******/
+function Afficher(){
+  
+}
+
+>>>>>>> 6baab36b6d6a957f73a7e5fb419c16c2e1b7f347
