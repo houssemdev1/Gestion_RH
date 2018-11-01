@@ -227,7 +227,7 @@ function Login() {
                 resultatUser = 1 ;
                 key = retrievedTabUser[j].societe;
               }
-<<<<<<< HEAD
+
 
 
 /**fonction d'ajout utilisateur */
@@ -379,7 +379,7 @@ localStorage.removeItem("key");
 location.href="../login.html";
 
         }
-=======
+
               if (((document.getElementById("inputLogin").value !== retrievedTabUser[j].email) && (document.getElementById("inputPassword").value !== retrievedTabUser[j].pwd))) 
               {
                 resultatAdmin = 0;
@@ -417,7 +417,7 @@ location.href="../login.html";
 
 }
 
-<<<<<<< HEAD
+
 
 
 
@@ -425,6 +425,3 @@ location.href="../login.html";
 function Afficher(){
   
 }
-=======
->>>>>>> d6c0e3dcbbc404fbb85788311eacf3bec2c9be0e
->>>>>>> d11b6fc2736e653ca8dc5c8fe53041abe1bea89c
