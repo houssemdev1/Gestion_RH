@@ -53,12 +53,18 @@
 }
 /**General css***/
 body{
+    font-family: arial;
+    font-size: 14px;
     width: 100%;
     height: 100%;
     padding: 0%;
-    margin: 0%;
+    margin: 2%;
 
 }
+
+
+
+
 
 
 /***ColumnLeft****/
@@ -75,9 +81,7 @@ body{
 
 
 /***Row2CL***/
-.Row2CL{
-    
-}
+
 
 
 
@@ -136,4 +140,23 @@ body{
 
 .Column1R1CR, .dropdown{
     display: inline-block
+}
+
+
+/**alligner les labels pour la page ajout_user*/
+label
+{
+	display: block;
+	width: 150px;
+    float: left;
+    margin-right:2%;
+    margin-top: 1%;
+}
+
+input{
+    margin-top:1%;
+
+}
+#mission{
+    margin-left: 5%;
 }
