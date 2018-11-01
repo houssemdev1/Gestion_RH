@@ -252,7 +252,7 @@ function Login() {
     localStorage.setItem("Key", key);
   }
   if (resultatUser == 1) {
-    location.href = 'forgetpasswd.html';
+    location.href = 'g_consulter_profil.html.html';
     localStorage.setItem("Key", key);
     localStorage.setItem("Key", key);
   }
@@ -262,3 +262,10 @@ function Login() {
 
 }
 
+
+
+
+/******Afficher Users *******/
+function Afficher(){
+  
+}
