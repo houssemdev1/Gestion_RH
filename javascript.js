@@ -334,21 +334,7 @@ function authentifier_user() {
 
   }
 }
-/*fonction se connecter*/
-function se_connecter()
-{
-  /**variable de recuperation adrsse email dans localstorage */
-  
-var log=document.getElementById("login").value;
-var retrievedTabUser = JSON.parse(localStorage.getItem("tabemploye"));
 
-localStorage.setItem("objlogin",JSON.stringify(log));
-
-    location.href="InterfaceEmploye/g_consulter_profil.html";
-    user_profil();
-    
-    
-}
 /*tester la validation de l'email*/
 function validation()
          {
